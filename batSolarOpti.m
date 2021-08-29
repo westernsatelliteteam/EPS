@@ -1,14 +1,16 @@
 %%%%%%%%%%%%%EditableVariables%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 increment=0.01;     %%increment that will be added each cycle
-NominalPower=3.964116;       %%nominal power usage during daylight
-EclipsePower=1.724736;       %%
-BatteryCapacity=10;
-batEfficency=1;
-EPSefficiency=1;
+NominalPower=3.964116;       %%nominal power usage during daylight W
+EclipsePower=1.724736;       %%Eclipse power usage during earth shadow W
+BatteryCapacity=10;          %%Nominal Capacity of Battery Wh
+DOD=0.65;                    %% 0-1 Depth of discharge %
+batEfficency=1;              %0-1 Battery Efficiency %
+EPSefficiency=1;             %0-1 EPS system efficiency %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 x=1;
 modifier=1;
+BatteryCapacity=DOD*BatteryCapacity;
 output=zeros(2,2);      %%setting up output array
 q=batCalcFunction(data,BatteryCapacity,batEfficency,EclipsePower,NominalPower,EPSefficiency,modifier);        %%initial q value
 while q>1
