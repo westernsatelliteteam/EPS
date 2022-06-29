@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MAX20801TPBC+T"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-10-07-15:39:14)
+    (mountForm default
+        (footprintRef "MAX20801TPBC")
+        (spec "System")
+    )
+)

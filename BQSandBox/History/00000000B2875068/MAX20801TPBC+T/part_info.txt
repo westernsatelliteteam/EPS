@@ -1,0 +1,9 @@
+Manufacturer=Maxim Integrated
+PartNumber=MAX20801TPBC+T
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=10
+Version=4.1
+Released=2020-10-07 15:39:14
+Downloaded=2022-06-14 22:13:02
+3D=Y
