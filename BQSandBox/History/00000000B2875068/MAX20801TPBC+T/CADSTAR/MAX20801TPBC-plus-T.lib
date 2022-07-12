@@ -1,0 +1,18 @@
+.MAX20801TPBC-plus-T :1 ;Power Management Specialised - PMIC Vega - VE12 Derivative MPPT to work in VE29 platform in conjunction with AM58
+MAX20801TPBC
+*STM IC
+*NGS
+*PLB 1="VCC" 2="PV-_1" 3="PV-_2" 4="PV+" 5="OUT" 6="VBST" 7="PV-_3" 8="PV-_4" 9="PV-_5" 10="PV-_6"
+*MXP 10
+*DFN MAX20801TPBC-plus-T
+~!Manufacturer_Name (Maxim Integrated)
+~!Manufacturer_Part_Number (MAX20801TPBC+T)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://pdfserv.maximintegrated.com/en/ds/MAX20801.pdf)
+~!Height (1mm)
+~!3D_Model (MAX20801TPBC+T)
+MAX20801TPBC-plus-T
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 

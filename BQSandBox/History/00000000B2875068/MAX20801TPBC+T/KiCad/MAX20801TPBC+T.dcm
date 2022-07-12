@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX20801TPBC+T
+D Power Management Specialised - PMIC Vega - VE12 Derivative MPPT to work in VE29 platform in conjunction with AM58
+K
+F https://pdfserv.maximintegrated.com/en/ds/MAX20801.pdf
+$ENDCMP
+#
+#End Doc Library

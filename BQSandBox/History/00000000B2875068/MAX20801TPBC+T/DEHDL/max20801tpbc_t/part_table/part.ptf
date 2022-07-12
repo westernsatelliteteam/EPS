@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MAX20801TPBC_T'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Maxim Integrated", "MAX20801TPBC+T" (!) = "", "MAX20801TPBC", "Other", "", "", "", "", "Power Management Specialised - PMIC Vega - VE12 Derivative MPPT to work in VE29 platform in conjunction with AM58", "https://pdfserv.maximintegrated.com/en/ds/MAX20801.pdf", "1 mm"
+END_PART
+
+END.

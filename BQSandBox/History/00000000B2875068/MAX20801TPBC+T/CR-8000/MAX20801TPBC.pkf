@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "MAX20801TPBC"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "MAX20801TPBC")
+        (spec "default")
+    )
+)
